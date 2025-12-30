@@ -1,5 +1,5 @@
 
-```markdown
+
 **MobSF Automated Dynamic Analysis Tool**
 
 MobSF(Mobile Security Framework)를 활용하여 안드로이드 앱의 정적/동적 분석을 자동화하고, Custom Frida Script를 주입하여 보안 우회 및 후킹을 수행하는 Python 자동화 도구
@@ -75,4 +75,3 @@ python dynamic.py
 
 이 도구는 **교육 및 보안 테스트 목적**으로만 사용해야 합니다. 허가받지 않은 앱에 대해 악의적인 목적으로 사용할 경우 법적 책임을 질 수 있습니다.
 
-```

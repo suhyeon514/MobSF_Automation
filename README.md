@@ -29,26 +29,26 @@ MobSF(Mobile Security Framework)를 활용하여 안드로이드 앱의 정적/�
 
 
 3. **환경 변수 설정 (중요!)**
-이 프로젝트는 `.env` 파일을 사용하여 설정을 관리합니다.
-프로젝트 루트 경로에 `.env` 파일을 생성하고 아래 내용을 채워주세요.
-**`.env` 작성 예시:**
-```ini
-# MobSF 서버 주소 (예: [http://127.0.0.1:8000](http://127.0.0.1:8000))
-MOBSF_URL=http://localhost:8000
-
-# MobSF API Key (MobSF 상단 메뉴 API Key 복사)
-API_KEY=YOUR_MOBSF_API_KEY_HERE
-
-# 분석할 APK 파일의 절대 경로
-APK_PATH=D:/Path/To/Your/sample.apk
-
-# 결과 리포트를 저장할 폴더 경로
-REPORT_DIR=./reports
-
-# (선택) 타겟 에뮬레이터 ID (adb devices로 확인)
-ADB_DEVICE_ID=emulator-5554
-
-```
+   이 프로젝트는 `.env` 파일을 사용하여 설정을 관리합니다.
+   프로젝트 루트 경로에 `.env` 파일을 생성하고 아래 내용을 채워주세요.
+   **`.env` 작성 예시:**
+   ```ini
+   # MobSF 서버 주소 (예: [http://127.0.0.1:8000](http://127.0.0.1:8000))
+   MOBSF_URL=http://localhost:8000
+   
+   # MobSF API Key (MobSF 상단 메뉴 API Key 복사)
+   API_KEY=YOUR_MOBSF_API_KEY_HERE
+   
+   # 분석할 APK 파일의 절대 경로
+   APK_PATH=D:/Path/To/Your/sample.apk
+   
+   # 결과 리포트를 저장할 폴더 경로
+   REPORT_DIR=./reports
+   
+   # (선택) 타겟 에뮬레이터 ID (adb devices로 확인)
+   ADB_DEVICE_ID=emulator-5554
+   
+   ```
 
 
 

@@ -1,6 +1,6 @@
 
 
-**MobSF Automated Dynamic Analysis Tool**
+## MobSF Automated Dynamic Analysis Tool
 
 MobSF(Mobile Security Framework)를 활용하여 안드로이드 앱의 정적/동적 분석을 자동화하고, Custom Frida Script를 주입하여 보안 우회 및 후킹을 수행하는 Python 자동화 도구
 
@@ -19,13 +19,13 @@ MobSF(Mobile Security Framework)를 활용하여 안드로이드 앱의 정적/�
    git clone [레포지토리 주소]
    cd [프로젝트 폴더]
 
-```
+   ```
 
 2. **의존성 라이브러리 설치**
-```bash
-pip install requests python-dotenv
-
-```
+   ```bash
+   pip install requests python-dotenv
+   
+   ```
 
 
 3. **환경 변수 설정 (중요!)**
